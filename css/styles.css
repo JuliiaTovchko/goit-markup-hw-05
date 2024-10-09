@@ -530,11 +530,6 @@ padding-left: 331px;
     background-color: #31D0AA;
 }
 
-.footer-wrapper-form {
-    width: 453px;
-    height: 80px;
-}
-
 .footer-form-text {
     font-weight: 500;
     font-size: 16px;
@@ -584,16 +579,14 @@ padding-left: 331px;
     left: 10px;
     fill: #ffffff;
 }
-
-.footer-wrapper-btn {
-    margin-top: auto;
-}
-
-.footer-wrapper {
+ .form-footer {
     display: flex;
+    gap: 24px;
+ }
+ 
+.footer-wrapper {
     width: 453px;
     height: 80px;
-    gap: 24px;
 }
 
 /* #region Footer */
