@@ -560,7 +560,9 @@ padding-left: 331px;
 .footer-form-btn {
     position: relative;
     display: flex;
-    width: 165px;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
     height: 40px;
     font-weight: 500;
     font-size: 16px;
@@ -571,19 +573,18 @@ padding-left: 331px;
     border-radius: 4px;
     padding: 8px 24px;
     background: #4d5ae5;
-    border-color: transparent;
+    border: none;
 }
 .footer-form-btn-icon {
     position: absolute;
-    top: 2px;
-    left: 10px;
+    margin-left: 16px;
     fill: #ffffff;
 }
  .form-footer {
     display: flex;
     gap: 24px;
  }
- 
+
 .footer-wrapper {
     width: 453px;
     height: 80px;
