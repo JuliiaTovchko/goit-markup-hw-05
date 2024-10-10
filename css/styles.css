@@ -571,12 +571,17 @@ padding-left: 331px;
     text-align: center;
     color: #fff;
     border-radius: 4px;
-    padding: 8px 24px;
+    padding-left: 24px;
+    padding-right: 64px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     background: #4d5ae5;
     border: none;
 }
 .footer-form-btn-icon {
     position: absolute;
+    top: 8px;
+    right: 24px;
     margin-left: 16px;
     fill: #ffffff;
 }
@@ -622,7 +627,6 @@ padding-left: 331px;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 408px;
-    height: 80%;
     min-height: 584px;
     overflow: auto;
     padding: 72px 24px 24px 24px;
