@@ -1804,6 +1804,10 @@ body {
     .modal-mobile.is-open {
         display: none;
     }
+
+    .modal-mobile-container {
+        display: none;
+    }
 }
 
 /* #endregion modal mobile menu */
